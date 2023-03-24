@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "LetterIndexView"
+include ':app'
+include ':liv'
+//include 'pinyin4j'
+//project(':pinyin4j').projectDir = new File(settingsDir, '../../demoTask/greePinyin4j/pinyin4j')
